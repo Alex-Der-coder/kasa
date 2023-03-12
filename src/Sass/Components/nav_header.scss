@@ -1,15 +1,17 @@
 nav {
-  margin-right: -16%;
-  width: 30%;
   margin-top: -2%;
+  margin-right: -12%;
+  width: 29%;
+}
   
   a {
     text-decoration: none;
     
   }
-}
 
-#accueil {
-  text-decoration: underline;
-  color: #FF6060;
-}
+
+  nav ul li a.active {
+    text-decoration: underline;
+    color: #FF6060;
+  }
+  

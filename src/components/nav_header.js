@@ -1,15 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 function Nav() {
+  const location = useLocation();
+
   return (
     <nav>
       <ul>
-        <li id='accueil'>
-          <Link to="/">Accueil</Link>
+        <li>
+          <NavLink exact to="/" className={location.pathname === "/" ? "active" : ""}>Accueil</NavLink>
         </li>
         <li>
-          <Link to="/about">À propos</Link>
+          <NavLink to="/about" className={location.pathname === "/about" ? "active" : ""}>À propos</NavLink>
         </li>
       </ul>
     </nav>
@@ -17,3 +19,4 @@ function Nav() {
 }
 
 export default Nav;
+
