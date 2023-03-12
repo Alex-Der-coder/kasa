@@ -22,7 +22,7 @@ const App = () => {
             <About />
           </Route>
           <Route path="/:id" component={LogementDetails} />
-          <Route path="/404" component={PageNotFound} />
+          <Route exact path="/404" component={PageNotFound} />
           <Route path="*">
             <Redirect to="/404" />
           </Route>

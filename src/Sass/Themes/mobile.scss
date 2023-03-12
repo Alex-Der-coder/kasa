@@ -1,0 +1,211 @@
+@media only screen and (min-width: 320px) and (max-width: 677px) {
+    .section1 {
+        width: 300px;
+    }
+    .logo {
+        background-image: url("../images/Logo_mobile.svg");
+        background-repeat: no-repeat;
+        width: 275px;
+        font-size: 12px;
+        margin-left: -15px;
+        margin-top: 15px;
+    }
+    nav {
+        width: 31%;
+        margin-right: 0%;
+    }
+    
+    .header nav ul li a {
+        font-size: inherit;
+    }
+    
+    .header nav ul {
+        padding-left: 0px;
+        width: 136.617px;
+        margin-left: -10px;
+        margin-top: 25px;
+    }
+    /*test for banner */
+    
+    
+    
+    .section1::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+        border-radius: 25px;
+    }
+    
+    .section1-inner {
+        position: relative;
+        z-index: 2;
+    }
+    
+    .section1-text {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    
+    .section1-home {
+        background-color: #000000;
+    }
+    
+    .section1-about {
+        background-color: #ffffff;
+    }
+    
+    .collapse-header {
+        position: relative;
+        height: 47px;
+        background: #ff6060;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        font-weight: bold;
+        cursor: pointer;
+        padding-left: 15px;
+        color: #ffffff;
+    }
+    
+    
+    .collapse-content {
+        background: #f6f6f6;
+        overflow: hidden;
+        transition: height 0.3s ease;
+    }
+    
+    .collapse-content.collapsed {
+        height: 0;
+    }
+    
+    .collapse-content.expanded {
+        height: auto;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        color: #ff6060;
+    }
+    
+    .collapse-container .content {
+        width: 90%;
+        left: 5%;
+        top: 50%;
+        position: absolute;
+        transform: translateY(-50%);
+    }
+    
+    .chevron {
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        transform: translateY(-50%);
+        border-style: solid;
+        border-width: 0.25em 0.25em 0 0;
+        content: '';
+        display: inline-block;
+        height: 0.45em;
+        width: 0.45em;
+        vertical-align: top;
+    }
+    
+    .chevron.open:before {
+        transform: rotate(135deg);
+    }
+    
+    #about {
+        margin-left: 8px;
+        width: 99%;
+    }
+    .gallery {
+        width: 100%;
+        background: unset;
+    }
+    
+    footer .logo {
+        margin-left: 1%;
+        width: 70%;
+    }
+    
+    .collapse-container {
+        margin-bottom: 2rem;
+    }
+    
+    .content {
+        width: 100%;
+    }
+    
+    collapse-header.open .chevron {
+        transform: translateY(-50%) rotate(140deg);
+    }
+    .body_container {
+        height: 88rem;
+    }
+    
+    .Body_404 {
+        background-image: url('../images/404_mobile.svg');
+        width: 12rem;
+        
+    }
+    
+    .page_notfound {
+        display: none;
+    }
+    
+    .back_to_home {
+        background-image: url('../images/Oups_mobile.svg');
+        background-repeat: no-repeat;
+        width: 262px;
+        margin-left: -27px;
+
+        padding-top: 11rem;
+margin-top: 0px;
+    }
+    .Container_404 {
+        height: 25rem;
+
+    }
+
+    .App > div:nth-child(2) {
+        width: 97%;
+
+       }
+       .carousel img {
+        object-fit: fill;
+    
+    }
+    .container {
+       flex-direction: column;
+    }
+    
+    .tags {
+    width: 13rem;
+    }
+
+    .rating-stars {
+    font-size: 20px;
+margin-top: 2rem;
+margin-left: -11rem;
+}
+
+.round-image {
+position: relative;
+top: 11rem;
+}
+
+
+
+
+
+}
+       

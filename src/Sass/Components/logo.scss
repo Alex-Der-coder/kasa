@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 76%;
+    margin-bottom: 3%;
+    }
+    
+    .logo {
+    width: 210.32px;
+    height: 68px;
+    background-image: url("../images/Logo_desktop.svg");
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    nav ul li a {
+    text-decoration: none;
+    color: #333;
+    }
+
+
+      
+      .footer-logo {
+        background-image: url("../images/kasa_white_logo.png");
+      }
+      

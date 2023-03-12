@@ -1,0 +1,83 @@
+.star_filled {
+    color: #FF6060;
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('../Layout/Montserrat-Bold.ttf');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+.star_empty {
+    color: #E3E3E3;
+}
+
+h1,p {
+color: #FF6060;
+
+}
+
+.justify_left{
+font-size: 20px;
+text-align: unset;
+}
+
+.about_title_name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rating-stars {
+    display: flex;
+    align-self: center;
+    font-size: 23px;
+    
+}
+
+#title_logement  {
+    font-size: 19px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.location {
+    height: 60px;
+    margin-top: -15px;
+}
+.round-image {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.logement_tags {
+    background: #FF6060;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+    color: white;
+}
+
+.content_collapse {
+    width: 1023px;
+    height: 18rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_collapse {
+    .collapse-container {
+        width: 29rem;
+    }
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25rem;
+}
