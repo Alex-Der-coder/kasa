@@ -19,9 +19,8 @@ function Collapse({ title, children, isInitiallyOpen = false, onToggle = () => {
         <span className={`chevron top ${isCollapsed ? "hidden" : ""}`}></span>
       </div>
       <div
-        className={`collapse-content ${isCollapsed ? "collapsed" : "expanded"}`}
-        style={{ height: isCollapsed ? "0" : "auto" }}
-      >
+        className={`collapse-content ${isCollapsed ? "collapsed" : "expanded"}`}>
+      
         {children}
       </div>
     </div>
