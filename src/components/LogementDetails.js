@@ -39,7 +39,7 @@ const LogementDetails = (props) => {
       <div className="about_title_name">
         <h1 id='title_logement'>{logement.title}</h1>
     
-        <p>{logement.host.name}</p>
+        <p className='host'>{logement.host.name}</p>
         <img src={logement.host.picture} alt={logement.description} className="round-image" />  
              
       </div>
