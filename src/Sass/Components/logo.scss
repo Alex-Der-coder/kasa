@@ -1,11 +1,13 @@
 .header {
     display: flex;
     justify-content: space-between;
-    width: 76%;
+    width: 75%;
     margin-bottom: 3%;
     }
     
     .logo {
+      margin-left: -8%;
+      margin-top: 3%;
     width: 210.32px;
     height: 68px;
     background-image: url("../images/Logo_desktop.svg");
@@ -15,6 +17,8 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+margin-top: 25%;
     }
     
     nav ul li a {
