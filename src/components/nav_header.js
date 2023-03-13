@@ -8,7 +8,7 @@ function Nav() {
     <nav>
       <ul>
         <li>
-          <NavLink exact to="/" className={location.pathname === "/" ? "active" : ""}>Accueil</NavLink>
+          <NavLink exact to="/" className={location.pathname === "/" && !location.state ? "active" : ""}>Accueil</NavLink>
         </li>
         <li>
           <NavLink to="/about" className={location.pathname === "/about" ? "active" : ""}>À propos</NavLink>
@@ -19,4 +19,3 @@ function Nav() {
 }
 
 export default Nav;
-
