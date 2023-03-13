@@ -137,8 +137,8 @@
     }
     .privacy {
         width: 100%;
-       }
-       
+    }
+    
     .collapse-container {
         margin-bottom: 2rem;
     }
@@ -153,6 +153,8 @@
     .body_container {
         height: 88rem;
     }
+    
+    
     
     .Body_404 {
         background-image: url('../images/404_mobile.svg');
@@ -170,55 +172,71 @@
         background-repeat: no-repeat;
         width: 262px;
         margin-left: -27px;
-
+        
         padding-top: 11rem;
-margin-top: 0px;
+        margin-top: 0px;
     }
     .Container_404 {
         height: 25rem;
-
+        
     }
-
+    
     .App > div:nth-child(2) {
         width: 97%;
-
-       }
-       .carousel img {
+        
+    }
+    .carousel img {
         object-fit: fill;
-    
+        
     }
     .container {
-       flex-direction: column;
+        flex-direction: column;
     }
     
     .tags {
-    width: 13rem;
+        width: 18rem;
+        font-size: 12px;
+      
     }
 
+    .content_collapse .collapse-container {
+        margin-bottom: 2rem;
+        width: 100%;
+        margin-top: 13%;
+      }    
+    .content_collapse  {
+    flex-direction: column;
+    width: 100%;
+}
+
     .rating-stars {
-    font-size: 20px;
-margin-top: 2rem;
-margin-left: -11rem;
+        font-size: 20px;
+        margin-left: -62%;
+        margin-top: 16%;
+    }
+    
+    .round-image {
+        left: 75%;
+        top: 73%;
+        position: absolute;
+    }
+    
+    .host {
+        left: 52%;
+        top: 73%;
+        position: absolute;
+        width: 109.2px;
+        
+    }
+    
+    .footer-logo {
+        background-image : url(../images/kasa_white_logo_mobile.svg)
+        
+        
+    }
+    
+    footer {
+        margin-top: 400rem;
+    }
 }
 
-.round-image {
-position: relative;
-top: 11rem;
-}
-
-.host {
-position: relative;
-top: 11rem;
-}
-
-.footer-logo {
-background-image : url(../images/kasa_white_logo_mobile.svg)
-
-
-}
-
-footer {
-margin-top: 400rem;
-}
-}
-       
