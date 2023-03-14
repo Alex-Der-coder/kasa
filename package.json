@@ -23,7 +23,7 @@
     "yarn": "^1.22.19"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm run build-css && react-scripts start",
     "build-css": "node-sass src/Sass/Base/style.scss -o src/Sass/Base/ --output-style compressed",
     "build": "react-scripts build",
     "test": "react-scripts test",
