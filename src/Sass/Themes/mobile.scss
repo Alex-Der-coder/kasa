@@ -194,7 +194,7 @@
     }
     
     .tags {
-        width: 18rem;
+        width: 100%;
         font-size: 12px;
       
     }
@@ -217,17 +217,17 @@
     
     .round-image {
         left: 75%;
-        top: 73%;
+        top: 119%;
         position: absolute;
     }
     
     .host {
+        width: 78.2px;
         left: 52%;
-        top: 73%;
+        top: 119%;
         position: absolute;
-        width: 109.2px;
-        
-    }
+      }
+    
     
     .footer-logo {
         background-image : url(../images/kasa_white_logo_mobile.svg)
