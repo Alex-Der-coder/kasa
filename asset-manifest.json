@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/kasa/static/css/main.af7765f5.css",
-    "main.js": "/kasa/static/js/main.45470429.js",
-    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash-2.webp": "/kasa/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash-2.a4708e008b37b1a89dff.webp",
-    "static/media/IMG.webp": "/kasa/static/media/IMG.8e7836b32c0ac5376e89.webp",
-    "static/media/Montserrat-Bold.ttf": "/kasa/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
-    "static/media/Montserrat-Regular.ttf": "/kasa/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
-    "static/media/Oups_mobile.svg": "/kasa/static/media/Oups_mobile.9eef5651003f67e46ea1.svg",
-    "static/media/Logo_desktop.svg": "/kasa/static/media/Logo_desktop.bb1c78bdbf97911cf604.svg",
-    "static/media/Logo_mobile.svg": "/kasa/static/media/Logo_mobile.bb7954d079ad9bef972b.svg",
-    "static/media/kasa_white_logo_desktop.svg": "/kasa/static/media/kasa_white_logo_desktop.ee689fd9409d1b5a898b.svg",
-    "static/media/kasa_white_logo_mobile.svg": "/kasa/static/media/kasa_white_logo_mobile.879b500939b17c84a3f7.svg",
-    "static/media/404_desktop.svg": "/kasa/static/media/404_desktop.e76d89db58d109bc4061.svg",
-    "static/media/404_mobile.svg": "/kasa/static/media/404_mobile.2b99f720d9320a834b4e.svg",
-    "index.html": "/kasa/index.html",
-    "main.af7765f5.css.map": "/kasa/static/css/main.af7765f5.css.map",
-    "main.45470429.js.map": "/kasa/static/js/main.45470429.js.map"
+    "main.css": "/static/css/main.ac56e9f8.css",
+    "main.js": "/static/js/main.45470429.js",
+    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash-2.webp": "/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash-2.a4708e008b37b1a89dff.webp",
+    "static/media/IMG.webp": "/static/media/IMG.8e7836b32c0ac5376e89.webp",
+    "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/Oups_mobile.svg": "/static/media/Oups_mobile.9eef5651003f67e46ea1.svg",
+    "static/media/Logo_desktop.svg": "/static/media/Logo_desktop.bb1c78bdbf97911cf604.svg",
+    "static/media/Logo_mobile.svg": "/static/media/Logo_mobile.bb7954d079ad9bef972b.svg",
+    "static/media/kasa_white_logo_desktop.svg": "/static/media/kasa_white_logo_desktop.ee689fd9409d1b5a898b.svg",
+    "static/media/kasa_white_logo_mobile.svg": "/static/media/kasa_white_logo_mobile.879b500939b17c84a3f7.svg",
+    "static/media/404_desktop.svg": "/static/media/404_desktop.e76d89db58d109bc4061.svg",
+    "static/media/404_mobile.svg": "/static/media/404_mobile.2b99f720d9320a834b4e.svg",
+    "index.html": "/index.html",
+    "main.ac56e9f8.css.map": "/static/css/main.ac56e9f8.css.map",
+    "main.45470429.js.map": "/static/js/main.45470429.js.map"
   },
   "entrypoints": [
-    "static/css/main.af7765f5.css",
+    "static/css/main.ac56e9f8.css",
     "static/js/main.45470429.js"
   ]
 }
