@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ac56e9f8.css",
-    "main.js": "/static/js/main.45470429.js",
+    "main.js": "/static/js/main.4e433cda.js",
     "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash-2.webp": "/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash-2.a4708e008b37b1a89dff.webp",
     "static/media/IMG.webp": "/static/media/IMG.8e7836b32c0ac5376e89.webp",
     "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
@@ -15,10 +15,10 @@
     "static/media/404_mobile.svg": "/static/media/404_mobile.2b99f720d9320a834b4e.svg",
     "index.html": "/index.html",
     "main.ac56e9f8.css.map": "/static/css/main.ac56e9f8.css.map",
-    "main.45470429.js.map": "/static/js/main.45470429.js.map"
+    "main.4e433cda.js.map": "/static/js/main.4e433cda.js.map"
   },
   "entrypoints": [
     "static/css/main.ac56e9f8.css",
-    "static/js/main.45470429.js"
+    "static/js/main.4e433cda.js"
   ]
 }
