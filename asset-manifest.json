@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kasa/static/css/main.af7765f5.css",
-    "main.js": "/kasa/static/js/main.8ed1778f.js",
+    "main.js": "/kasa/static/js/main.fd612eed.js",
     "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash-2.webp": "/kasa/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash-2.a4708e008b37b1a89dff.webp",
     "static/media/IMG.webp": "/kasa/static/media/IMG.8e7836b32c0ac5376e89.webp",
     "static/media/Montserrat-Bold.ttf": "/kasa/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
@@ -15,10 +15,10 @@
     "static/media/404_mobile.svg": "/kasa/static/media/404_mobile.2b99f720d9320a834b4e.svg",
     "index.html": "/kasa/index.html",
     "main.af7765f5.css.map": "/kasa/static/css/main.af7765f5.css.map",
-    "main.8ed1778f.js.map": "/kasa/static/js/main.8ed1778f.js.map"
+    "main.fd612eed.js.map": "/kasa/static/js/main.fd612eed.js.map"
   },
   "entrypoints": [
     "static/css/main.af7765f5.css",
-    "static/js/main.8ed1778f.js"
+    "static/js/main.fd612eed.js"
   ]
 }
