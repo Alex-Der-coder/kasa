@@ -2,6 +2,12 @@
     .section1 {
         width: 100%;
     }
+
+
+    .section1 .section1-inner .section1-text {
+        font-size: 33px;
+    }   
+
     .logo {
         background-image: url("../images/Logo_mobile.svg");
         background-repeat: no-repeat;
@@ -183,10 +189,6 @@
     
     .App > div:nth-child(2) {
         width: 97%;
-        
-    }
-    .carousel img {
-        object-fit: fill;
         
     }
     .container {
