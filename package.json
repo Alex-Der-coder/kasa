@@ -1,7 +1,7 @@
 {
   "name": "kasa",
   "version": "0.1.0",
-  "homepage": "https://github.com/Alex-Der-coder/kasa/" ,
+  "homepage": "https://github.com/Alex-Der-coder/kasa/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
@@ -12,15 +12,13 @@
     "add": "^2.0.6",
     "loader": "^2.1.1",
     "node-sass": "^8.0.0",
-    "ou": "^0.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^5.3.4",
     "react-scripts": "^5.0.1",
     "sass": "^1.58.1",
     "sass-loader": "^13.2.0",
-    "web-vitals": "^2.1.4",
-    "yarn": "^1.22.19"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
