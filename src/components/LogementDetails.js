@@ -29,6 +29,8 @@ const LogementDetails = (props) => {
     ratingStars.push(<img key={`inactive-${i}`} src={starInactiveSvg} alt="Inactive Star" className="star_icon" />);
   }
 
+  const tagsClass = logement.tags.length === 2 || logement.tags.length === 3 ? 'two-three-tags' : '';
+
   return (
     <div>
       <Carrousel pictures={logement.pictures} />
@@ -40,7 +42,7 @@ const LogementDetails = (props) => {
       <div className='location'>
         <p>{logement.location}</p>
       </div>
-      <div className='container'>
+      <div className={`container tags ${tagsClass}`}>
         <div className="tags">
           {logement.tags.map((tag) => (
             <span className='logement_tags' key={tag}>{tag}</span>

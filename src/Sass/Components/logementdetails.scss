@@ -10,6 +10,7 @@
     font-display: swap;
 }
 
+
 .star_empty {
     color: #E3E3E3;
 }
@@ -80,5 +81,5 @@ text-align: unset;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 50%;
+    gap: 20px;
 }
