@@ -31,13 +31,19 @@ const LogementDetails = (props) => {
 
   const tagsClass = logement.tags.length === 2 || logement.tags.length === 3 ? 'two-three-tags' : '';
 
+  const hostClass = logement.tags.length === 2 ? 'two-tags-host' : '';
+  const roundClass = logement.tags.length === 2 ? 'two-tags-host_round' : '';
   return (
     <div>
       <Carrousel pictures={logement.pictures} />
-      <div className="about_title_name">
+      <div className={`about_title_name`}>
         <h1 id='title_logement'>{logement.title}</h1>
-        <p className='host'>{logement.host.name}</p>
-        <img src={logement.host.picture} alt={logement.description} className="round-image" />
+        <p className={`host ${hostClass}`}>{logement.host.name}</p>
+        <img
+          src={logement.host.picture}
+          alt={logement.description}
+          className={`round-image ${roundClass}`}
+        />
       </div>
       <div className='location'>
         <p>{logement.location}</p>

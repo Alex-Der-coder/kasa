@@ -196,11 +196,12 @@
     }
     
     .tags {
-        width: 100%;
+        display: unset;
         font-size: 12px;
-      
     }
-
+    .logement_tags {
+    margin-right: 0.2%;
+}
     .content_collapse .collapse-container {
         margin-bottom: 2rem;
         width: 100%;
@@ -212,25 +213,33 @@
 }
 
     .rating-stars {
-        font-size: 20px;
-        margin-left: -62%;
         margin-top: 16%;
     }
+
+    .star_icon {
+    width: 10%;
+}
     
     .round-image {
         left: 75%;
-        top: 119%;
+        top: 127%;
         position: absolute;
     }
     
     .host {
-        width: 78.2px;
-        left: 52%;
-        top: 119%;
+        margin-top: 63%;
+        margin-left: 50%;
+        width: 20%;
         position: absolute;
       }
     
-    
+      .two-tags-host_round {
+        left: 77%;
+        top: 124%;
+      }
+      .two-tags-host {
+        margin-top: 57%;
+      }
     .footer-logo {
         background-image : url(../images/kasa_white_logo_mobile.svg)
         
