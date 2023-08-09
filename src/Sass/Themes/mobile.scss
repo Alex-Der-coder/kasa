@@ -368,5 +368,10 @@ top: 121%;
   }
 
 
-  
 
+@media screen and (min-width: 320px) and (max-width: 668px) {
+    .carousel{
+        width: 82%;
+  }
+
+}
