@@ -19,7 +19,7 @@ Le contenu des pages est géré dynamiquement avec un fichier JSON et les images
 - React.js
 - Sass
 - React router dom
-- Axios
+
 
 
 ## Quelques captures d'écrans : 
