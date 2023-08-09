@@ -9,7 +9,23 @@ nav {
     
   }
 
+  @media screen and (min-width: 820px) and (max-width: 1024px) {
+    nav {
+      width: 36%;
+    }
+    
+    ul {
+    padding-left: 10%;
+    }
+  }
+  
+  nav {
+  width: 36%;
+}
 
+ul {
+padding-left: 10%;
+}
   nav ul li a.active {
     text-decoration: underline;
     color: #FF6060;
